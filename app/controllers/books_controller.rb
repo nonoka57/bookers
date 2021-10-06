@@ -17,7 +17,7 @@ class BooksController < ApplicationController
     if book.save
     redirect_to books_path
     else
-    render books_path
+    render :index
     end
   end
 
@@ -31,7 +31,7 @@ class BooksController < ApplicationController
     @book.update(book_params)
     redirect_to book_path
   end
-  
+
   def destroy
     book=Book.find(params[:id])
     book.destroy
