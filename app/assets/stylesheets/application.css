@@ -17,14 +17,12 @@
 
 body{
   background-color: white;
-  font-family: vredana, arial, helvetica, sans-serif;
+  font-family:verdana, arial, helvetica, sans-serif;
   color: black;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
 }
-
-
 
 th{
   padding-bottom: 5px;
@@ -36,16 +34,30 @@ td{
   padding-right: 5px;
 }
 
-
-label{
-  display: block;
-}
-
-
-
 p, ol, ul, td{
   font-family: vredana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  background-color: black;
+}
+
+div.field,div.actions{
+  margin-bottom: 10px;
+}
+
+a:visited{
+  color:#666;
+}
+
+label{
+  display: block
 }
