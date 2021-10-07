@@ -2,6 +2,7 @@ class BooksController < ApplicationController
 
   def index
     @books = Book.all
+    @book = Book.new
   end
 
   def show
@@ -17,6 +18,7 @@ class BooksController < ApplicationController
     if @book.save
     redirect_to book_path(@book.id)
     else
+    @books = Book.all
     render :index
     end
   end
