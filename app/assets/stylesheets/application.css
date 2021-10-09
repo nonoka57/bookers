@@ -35,7 +35,7 @@ td{
 }
 
 p, ol, ul, td{
-  font-family: vredana, arial, helvetica, sans-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
@@ -51,7 +51,8 @@ a:hover{
 }
 
 div.field,div.actions{
-  margin-bottom: 10px;
+  margin-bottom:10px;
+
 }
 
 a:visited{
