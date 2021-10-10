@@ -60,5 +60,9 @@ a:visited{
 }
 
 label{
-  display: block
+  display: block;
+}
+
+#notice{
+  color: green;
 }
